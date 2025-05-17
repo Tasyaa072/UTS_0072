@@ -1,0 +1,146 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-weight: bold;
+  color: #009688;
+  line-height: 1.2;
+}
+
+.logo span {
+  font-size: 0.8em;
+  color: gray;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e0f7fa;
+  padding: 40px 20px;
+  gap: 40px;
+}
+.hero-img{
+  width: 70%;
+  max-width: 350px;
+  height: auto;
+  display: block;
+}
+.hero-text h1 {
+  margin-bottom: 20px;
+}
+.hero-text p{
+  margin-bottom: 30px;
+}
+.btn {
+  background: #00bfa5;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 50px;
+}
+
+.container {
+  padding: 20px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.info div {
+  width: 48%;
+}
+
+.harga table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.harga th, .harga td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.galeri-testimoni {
+  
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #e0f7fa;
+  
+}
+
+.galeri .images {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.galeri .images img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  padding: 4px;
+  background-color: white;
+}
+
+.galeri .images img:hover {
+  transform: scale(1.03);
+  filter: brightness(100%);
+}
+
+
+.testimoni p {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-left: 4px solid #009688;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.kontak {
+  background: #e0f7fa;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 40px auto;
+  border: 1px solid #ddd;
+}
+
+.kontak p {
+  margin: 12px 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.kontak h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #009688;
+}
